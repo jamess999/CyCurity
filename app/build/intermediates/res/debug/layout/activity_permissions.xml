@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:orientation="horizontal"
+    android:layout_width="fill_parent">
+    <TableRow>
+        <TextView android:text="Tom @ Back Door"
+            android:id="@+id/EditText01"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="fill_parent">
+        </TextView>
+        <Button android:text="Remove"
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </TableRow>
+    <TableRow>
+    <TextView android:text="Mary @ Side Door"
+        android:id="@+id/EditText02"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_width="fill_parent">
+    </TextView>
+    <Button android:text="Remove"
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Sally @ Work Door"
+            android:id="@+id/EditText03"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_width="fill_parent">
+        </TextView>
+        <Button android:text="Remove"
+            android:id="@+id/Button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </TableRow>
+</TableLayout>
+
+
+<!-- From: file:/C:/Users/Jamess999/AndroidStudioProjects/client/app/src/main/res/layout/activity_permissions.xml -->

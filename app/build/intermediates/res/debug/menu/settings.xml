@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cs486.cy_curity.MainActivity" >
+
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/C:/Users/Jamess999/AndroidStudioProjects/client/app/src/main/res/menu/settings.xml -->

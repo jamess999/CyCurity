@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cs486.cy_curity.MainActivity" >
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/request"
+        android:orderInCategory="100"
+        android:title="Request"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/newMain"
+        android:orderInCategory="100"
+        android:title="NewMain"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/manageRequests"
+        android:orderInCategory="100"
+        android:title="Manage Requests"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/managePermissions"
+        android:orderInCategory="100"
+        android:title="Manage Permissions"
+        app:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/C:/Users/Jamess999/AndroidStudioProjects/client/app/src/main/res/menu/main.xml -->
